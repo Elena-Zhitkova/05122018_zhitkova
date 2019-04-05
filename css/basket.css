@@ -1,0 +1,74 @@
+.basket-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.basket-box-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.basket-box-item .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.basket-box-item .left .name-sku .basket-box-item-sku {
+  color: grey;
+}
+
+.basket-box-item .left .name-sku .basket-box-item-photo, .basket-box-item .left .name-sku .basket-box-item-name, .basket-box-item .left .name-sku .basket-box-item-sku {
+  margin: 0px 100px;
+}
+
+.basket-box-item .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.basket-box-item .right .basket-box-item-count, .basket-box-item .right .basket-box-item-price, .basket-box-item .right .delete {
+  margin: 0px 100px;
+}
+
+.basket-box-item .right .delete {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+}
+/*# sourceMappingURL=basket.css.map */
